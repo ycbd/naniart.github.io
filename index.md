@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+# GITHUB 测试
+## GITHUB 测试标题2
+### GITHUB 测试标题3
+<u>测试下划线</u>
+**测试粗体**
+~~测试删除线~~
 
-You can use the [editor on GitHub](https://github.com/ycbd/website.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+* * *
+>测试引用
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+* 测试列表
+* 1
+* 2
+* 3
+*
+```mermaid
+graph TD
+A[模块A] -->|A1| B(模块B)
+B --> C{判断条件C}
+C -->|条件C1| D[模块D]
+C -->|条件C2| E[模块E]
+C -->|条件C3| F[模块F]
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ycbd/website.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+```mermaid
+gantt
+title 甘特图
+dateFormat  YYYY-MM-DD
+section 项目A
+任务1           :a1, 2018-06-06, 30d
+任务2     :after a1  , 20d
+section 项目B
+任务3      :2018-06-12  , 12d
+任务4      : 24d
+```
